@@ -316,31 +316,31 @@ nav.main-menu ul li a:hover {
 }
 
 .about-thum-area {
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 .about-thum-area .about-img {
-    height: 435px;
+    height: 500px;
     position: relative;
-    width: 365px;
+    width: 350px;
     z-index: 1;
 }
 
 .about-thum-area .about-img::after {
     border: 7px solid #00d7bb;
     content: "";
-    height: 450px;
+    height: 512px;
     left: -5px;
     position: absolute;
     top: -6px;
-    width: 345px;
+    width: 361px;
     z-index: -1;
 }
 
 .about-thum-area .about-img img {
     display: block;
-    height: 437px;
-    width: 335px;
+    height: 500px;
+    width: 350px;
 }
 
 .resume-btn a {
@@ -369,15 +369,15 @@ nav.main-menu ul li a:hover {
 
 .about-content-area p {
     color: #fff;
-    font-size: 14.5px;
-    font-weight: 300;
-    line-height: 26px;
+    font-size: 15.5px;
+    font-weight: 250;
+    line-height: 28.5px;
     margin: 20px 60px 20px 0;
 }
 
 .profile-menu li {
     color: #fff;
-    font-size: 17.5px;
+    font-size: 19.5px;
     margin-bottom: 16px;
 }
 
