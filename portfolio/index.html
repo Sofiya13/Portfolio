@@ -104,7 +104,7 @@
                             <img src="img/profile-pic.png" alt="Resume Template">
                         </div>
                         <div class="resume-btn">
-                            <a href="#"><i class="fa fa-cloud-download"></i> Download Resume</a>
+                            <a href="#" id="download-resume"><i class="fa fa-cloud-download"></i> Download Resume</a>
                         </div>
                     </div>
                 </div>
@@ -774,6 +774,19 @@
     <script type="text/javascript" src="js/plugins/contact_me.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        const downloadButton = document.getElementById("download-resume");
+        downloadButton.addEventListener('click', () => {
+            const filePath = "./assets/Sofiya_resume.pdf"
+
+            const link = document.createElement('a');
+            link.href = filePath;
+            link.download = "Sofiya_resume.pdf";
+
+            link.click();
+        })
+    </script>
 </body>
 
 </html>
